@@ -1,0 +1,28 @@
+{
+  "schedules": [
+    { "id": 1, "date": "2026-10-02", "start": "18:00", "end": "20:00", "title": "동아리 정기 모임", "calendar": "개인", "authorName": "나", "authorInitial": "나", "color": "#AD1457", "location": "동아리방", "memo": "회비 안내" },
+    { "id": 2, "date": "2026-10-07", "start": "10:00", "end": "11:00", "title": "영어 회화", "calendar": "학교", "authorName": "나", "authorInitial": "나", "color": "#2E7D32", "location": "어학원 3층", "memo": "" },
+    { "id": 3, "date": "2026-10-07", "start": "19:00", "end": "21:00", "title": "독서 모임", "calendar": "스터디", "authorName": "스터디원 B", "authorInitial": "B", "color": "#1565C0", "location": "온라인", "memo": "3장까지 읽기" },
+    { "id": 4, "date": "2026-10-13", "start": "09:00", "end": "10:15", "title": "전공 수업", "calendar": "학교", "authorName": "나", "authorInitial": "나", "color": "#2E7D32", "location": "강의실 A", "memo": "" },
+    { "id": 5, "date": "2026-10-13", "start": "14:00", "end": "17:00", "title": "도서관 과제", "calendar": "학교", "authorName": "나", "authorInitial": "나", "color": "#2E7D32", "location": "도서관", "memo": "보고서 초안" },
+    { "id": 6, "date": "2026-10-13", "start": "19:00", "end": "20:30", "title": "가족 저녁 식사", "calendar": "개인", "authorName": "나", "authorInitial": "나", "color": "#AD1457", "location": "집", "memo": "" },
+    { "id": 7, "date": "2026-10-20", "start": "09:00", "end": "10:15", "title": "전공 수업", "calendar": "학교", "authorName": "나", "authorInitial": "나", "color": "#2E7D32", "location": "강의실 A", "memo": "" },
+    { "id": 8, "date": "2026-10-20", "start": "10:30", "end": "11:30", "title": "조교 면담", "calendar": "학교", "authorName": "나", "authorInitial": "나", "color": "#2E7D32", "location": "연구실", "memo": "질문 정리" },
+    { "id": 9, "date": "2026-10-20", "start": "12:00", "end": "13:00", "title": "점심 약속", "calendar": "개인", "authorName": "나", "authorInitial": "나", "color": "#AD1457", "location": "학생식당", "memo": "" },
+    { "id": 10, "date": "2026-10-20", "start": "13:30", "end": "15:00", "title": "스터디 모임", "calendar": "스터디", "authorName": "스터디원 B", "authorInitial": "B", "color": "#1565C0", "location": "온라인", "memo": "" },
+    { "id": 11, "date": "2026-10-20", "start": "15:30", "end": "17:00", "title": "팀 프로젝트 회의", "calendar": "팀", "authorName": "팀원 A", "authorInitial": "A", "color": "#E65100", "location": "회의실 B", "memo": "역할 분담" },
+    { "id": 12, "date": "2026-10-20", "start": "18:00", "end": "19:00", "title": "아르바이트", "calendar": "개인", "authorName": "나", "authorInitial": "나", "color": "#AD1457", "location": "카페", "memo": "" },
+    { "id": 13, "date": "2026-10-20", "start": "21:00", "end": "22:00", "title": "복습", "calendar": "학교", "authorName": "나", "authorInitial": "나", "color": "#2E7D32", "location": "집", "memo": "" },
+    { "id": 14, "date": "2026-10-28", "start": "09:00", "end": "10:15", "title": "전공 수업", "calendar": "학교", "authorName": "나", "authorInitial": "나", "color": "#2E7D32", "location": "강의실 A", "memo": "중간고사 범위 공지" },
+    { "id": 15, "date": "2026-10-28", "start": "11:00", "end": "12:00", "title": "스터디 모임", "calendar": "스터디", "authorName": "스터디원 B", "authorInitial": "B", "color": "#1565C0", "location": "온라인", "memo": "문제 풀이 3개" },
+    { "id": 16, "date": "2026-10-28", "start": "13:00", "end": "14:00", "title": "점심 약속", "calendar": "개인", "authorName": "나", "authorInitial": "나", "color": "#AD1457", "location": "학생식당", "memo": "" },
+    { "id": 17, "date": "2026-10-28", "start": "15:00", "end": "16:30", "title": "팀 프로젝트 회의", "calendar": "팀", "authorName": "팀원 A", "authorInitial": "A", "color": "#E65100", "location": "회의실 B", "memo": "준비: 발표 자료 최종본 검토, 역할별 진행 상황 공유, 노트북 지참" },
+    { "id": 18, "date": "2026-10-28", "start": "19:00", "end": "20:00", "title": "운동", "calendar": "개인", "authorName": "나", "authorInitial": "나", "color": "#AD1457", "location": "체육관", "memo": "" },
+    { "id": 19, "date": "2026-10-29", "start": "13:00", "end": "15:00", "title": "중간 발표", "calendar": "학교", "authorName": "나", "authorInitial": "나", "color": "#2E7D32", "location": "강의실 A", "memo": "발표 6분" }
+  ],
+  "notes": [
+    { "id": 1, "date": "2026-10-20", "author": "나", "time": "08:10", "text": "일정이 7개라 이동 시간을 꼭 확인하기" },
+    { "id": 2, "date": "2026-10-28", "author": "팀원 A", "time": "08:40", "text": "오후 회의실이 회의실 B로 바뀌었어요." },
+    { "id": 3, "date": "2026-10-28", "author": "나", "time": "12:20", "text": "스터디 문제 3개 다 풀었음. 회의 전에 발표 자료 한 번 더 보기" }
+  ]
+}
