@@ -161,7 +161,7 @@ class DaySchedulePanel extends StatefulWidget {
 }
 
 class _DaySchedulePanelState extends State<DaySchedulePanel> {
-  // 손잡이를 끈 거리 — 화면 안 표시 변화(setState)만
+  // STATE: 패널 끈 거리 → B-0 패널 위치 (기준을 넘으면 닫힘, 화면 안 setState만, 저장 안 함)
   double _dragOffset = 0;
 
   void _onDragUpdate(DragUpdateDetails d) {

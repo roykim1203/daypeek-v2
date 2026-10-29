@@ -54,3 +54,9 @@ node_modules/
 *.bak
 *.backup.json
 *.tmp
+
+# 리뷰 원본 캡처(작성자 이름 · 프로필 사진 포함)는 로컬에만 보존 — 공개용은 docs/screenshots/public/review*_public.png
+docs/screenshots/TimeTree 구글 플레이 스토어 실제 리뷰*.png
+
+# 데모 영상 원본은 Google Drive 링크로 제출(README "데모" 칸) — 저장소에는 올리지 않는다
+docs/영상/*.mp4

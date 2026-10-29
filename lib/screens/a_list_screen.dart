@@ -259,6 +259,7 @@ class _MonthGrid extends StatelessWidget {
                         minCell,
                         double.infinity,
                       );
+                      // A-3 P08 — 날짜 칸 격자: 날짜 숫자 · 일정 막대 · 숨김 배지 외 장식 없음
                       return ListView(
                         padding: EdgeInsets.zero,
                         children: [
