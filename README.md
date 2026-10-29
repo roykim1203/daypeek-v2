@@ -60,10 +60,10 @@ v2에서 바뀐 것 3개 — 원칙 카드(`docs/원칙카드.md`)의 P번호와
 |---|---|
 | 현행 앱 | TimeTree (스토어 링크 추후 삽입) |
 | v2 한 문장 | 월간 달력에서 숨겨진 일정 수를 `+N개`로 보여 주고, 하루 전체 일정을 한 번에 펼쳐 보는 TimeTree v2 |
-| 작성자 | 추후 기입 (이름 또는 이니셜) · 1인 1팀 |
+| 작성자 | 김하람 · 1인 1팀 |
 | 저장소 | https://github.com/roykim1203/daypeek-v2 |
 | 데모 | **시연 영상 1분 (Google Drive)**: https://drive.google.com/file/d/1vFoFhKfgWuUBk7tnHAw2vh5rPVyGlLcb/view?usp=sharing · 영상 파일(약 6.1MB)은 저장소에 올리지 않고 Drive 링크로 제출 (**제출물 ①**) |
-| AI 사용 | Claude Code(Claude Opus 5.5) · 규칙 `AGENTS.md` · 기록 `docs/prompt-log.md`(개발 세션 15행) · 셀프 논증 기록 `docs/셀프논증.md`(사용성 중심 쟁점 5개 + 부록 'AI 코드 제안 비판적 검증', 작성자 확인 칸 남음) |
+| AI 사용 | Claude Code(Claude Opus 5.5) · 규칙 `AGENTS.md` · 기록 `docs/prompt-log.md`(1~18행) · 셀프 논증 기록 `docs/셀프논증.md`(사용성 중심 쟁점 5개 + 부록 'AI 코드 제안 비판적 검증', 재반론 · 배운 점은 작성자 직접 작성) |
 | 기획 문서 | `docs/기획.md` — 현행 분석 · 사업 요약 · 퍼소나 · 저니 · 피쉬본 · 5 Why · 핵심 문제와 개선 근거 (리뷰 · 캡처 원본 삽입 필요) |
 
 > 이 저장소는 **UI만 구현**합니다(중간고사 안내문 5장). 보이기는 동작하는 것처럼, 실제 동작(저장 · 로그인 · 결제 · 실제 계산 · AI 호출)은 없습니다.
@@ -225,8 +225,8 @@ grep -rnE "http\.(post|put|patch|delete)|SharedPreferences|sqflite|hive|Firebase
 - [ ] ① **데모 시연 + 코드** — GitHub 저장소 URL — **clone 테스트 통과**
   - [x] Flutter 코드 + `mock_server/db.json`
   - [ ] README — 앱 소개 8칸(스크린샷 · 평점 · 리뷰 반영됨, 스토어 링크 · 넓은 화면 캡처 남음) · 실행 방법 · **데모 영상 1분** (Google Drive 공유 링크 입력됨 — 영상 파일은 저장소에서 제외)
-  - [ ] `docs/` — 기획 · 디자인 가이드 · 원칙 카드 · prompt-log · **셀프 논증 기록** · 자가평가 (작성됨 — 리뷰 · 캡처 원본 삽입, 셀프 논증 작성자 검토 칸이 남음 · `docs/자가평가.md` "제출 전 남은 일")
-- [ ] ② **발표자료** — `mid-project-presentation-template` 사용(PPTX 또는 PDF, 6분 발표 + 2분 질의)
+  - [ ] `docs/` — 기획 · 디자인 가이드 · 원칙 카드 · prompt-log · **셀프 논증 기록** · 자가평가 (작성됨 — 셀프 논증 작성자 이름 입력 완료 · 남은 증거(스토어 링크 · 캡처 날짜 등)는 `docs/자가평가.md` "제출 전 남은 일")
+- [x] ② **발표자료** — `mid-project-presentation-template` 사용(PPTX 또는 PDF, 6분 발표 + 2분 질의) — 제작 완료(작성자 보고, 파일은 저장소 밖) · LMS 제출 · 리허설 시간 기록은 작성자 확인
   - [ ] 본문 7장 + 부록 B1 데모 · 스크린샷 · B2 원칙 카드 · B3 prompt-log · B4 자가평가 · **B5 기획 상세**(사업 요약 · 저니 · 피쉬본/5 Why · 화면별 요소 분석표 · 상태관리 포인트)
 
 ## 10. 확인된 상태 (첫 업로드 시점, Windows · Flutter SDK `C:\dev\flutter`)
